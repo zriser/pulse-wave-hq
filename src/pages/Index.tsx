@@ -1,9 +1,21 @@
+import HeroSection from '@/components/HeroSection';
+import MissionSection from '@/components/MissionSection';
+import CompetenciesSection from '@/components/CompetenciesSection';
+import DifferentiatorsSection from '@/components/DifferentiatorsSection';
+import PerformanceSection from '@/components/PerformanceSection';
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
+
 const Index = () => {
-  console.log("Index component rendering");
   return (
-    <div className="min-h-screen bg-black text-white p-8">
-      <h1 className="text-4xl font-bold text-center">PulseWave Tech</h1>
-      <p className="text-center mt-4">Testing basic render</p>
+    <div className="min-h-screen">
+      <HeroSection />
+      <MissionSection />
+      <CompetenciesSection />
+      <DifferentiatorsSection />
+      <PerformanceSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 };
