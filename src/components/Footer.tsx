@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold gradient-text mb-4">PulseWave Tech</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">Pulse Wave Tech</h3>
             <p className="text-muted-foreground">
               Intelligence delivered in real time through advanced AI/ML and automation solutions.
             </p>
@@ -67,7 +67,7 @@ const Footer = () => {
 
         <div className="border-t border-primary/20 mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} PulseWave Tech. All rights reserved.
+            © {new Date().getFullYear()} Pulse Wave Tech. All rights reserved.
           </p>
         </div>
       </div>
