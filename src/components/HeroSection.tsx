@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <div className="animate-float">
           <h1 className="text-6xl md:text-7xl font-bold mb-6 text-shadow-glow">
-            <span className="gradient-text">PulseWave</span> Tech
+            <span className="gradient-text">Pulse Wave</span> Tech
           </h1>
           <p className="text-xl md:text-2xl text-primary mb-4 font-semibold">
             Intelligence Delivered in Real Time

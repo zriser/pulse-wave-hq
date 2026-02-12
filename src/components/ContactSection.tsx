@@ -19,7 +19,7 @@ const ContactSection = () => {
     e.preventDefault();
     
     // Create mailto link
-    const subject = encodeURIComponent('PulseWave Tech Inquiry');
+    const subject = encodeURIComponent('Pulse Wave Tech Inquiry');
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     );
